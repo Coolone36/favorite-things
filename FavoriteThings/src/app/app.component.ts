@@ -18,10 +18,10 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    firebase.database().ref().child('color').on('value', (snapshot: firebase.database.DataSnapshot) => { 
+    firebase.database().ref().child('color').on('value', (snapshot: firebase.database.DataSnapshot) => {
       this.favoriteColor = snapshot.val();
      });
-     firebase.database().ref().child('number').on('value', (snapshot: firebase.database.DataSnapshot) => { 
+     firebase.database().ref().child('number').on('value', (snapshot: firebase.database.DataSnapshot) => {
       this.favoriteNumber = snapshot.val();
      });
   }
@@ -40,7 +40,7 @@ export class AppComponent implements OnInit, OnDestroy {
   }
   // updateColor(): void {
   //   console.log('TODO: Update the color');
-  //   firebase.database().ref().child('color').once('value', (snapshot: firebase.database.DataSnapshot) => { 
+  //   firebase.database().ref().child('color').once('value', (snapshot: firebase.database.DataSnapshot) => {
   //     this.favoriteColor = snapshot.val();
   //    });
   // }

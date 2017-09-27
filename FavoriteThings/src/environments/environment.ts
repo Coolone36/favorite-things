@@ -6,11 +6,11 @@
 export const environment = {
   production: false,
   firebaseConfig: {
-    apiKey: "AIzaSyAH2kHGCmPgwOjqOkyZhUW5zcxruGrnxds",
-    authDomain: "laritz-default.firebaseapp.com",
-    databaseURL: "https://laritz-default.firebaseio.com",
-    projectId: "laritz-default",
-    storageBucket: "laritz-default.appspot.com",
-    messagingSenderId: "245242849581"
+    apiKey: 'AIzaSyAH2kHGCmPgwOjqOkyZhUW5zcxruGrnxds',
+    authDomain: 'laritz-default.firebaseapp.com',
+    databaseURL: 'https://laritz-default.firebaseio.com',
+    projectId: 'laritz-default',
+    storageBucket: 'laritz-default.appspot.com',
+    messagingSenderId: '245242849581'
   },
 };
